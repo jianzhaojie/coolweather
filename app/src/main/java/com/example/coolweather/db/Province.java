@@ -2,7 +2,12 @@ package com.example.coolweather.db;
 
 import org.litepal.crud.DataSupport;
 
+/**
+ * Created by x on 2017/5/22.
+ */
+
 public class Province extends DataSupport {
+
     private int id;
     private String provinceName;
     private int provinceCode;
@@ -30,5 +35,4 @@ public class Province extends DataSupport {
     public void setProvinceCode(int provinceCode) {
         this.provinceCode = provinceCode;
     }
-
 }
